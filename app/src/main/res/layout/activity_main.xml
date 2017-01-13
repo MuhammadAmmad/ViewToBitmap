@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#073b6b"
+    tools:context="com.muddzdev.viewtobitmap.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="CONTROL COMMAND"
+            android:textColor="#00ff40"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/textview"
+            android:background="#20486c"
+            android:fontFamily="monospace"
+            android:gravity="top"
+            android:padding="10dp"
+            android:text="write a quote or story and save it as an bitmap and share the images to your friends."
+            android:textAllCaps="true"
+            android:textColor="#08fbff"
+            android:textSize="14sp" />
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/edittext"
+            android:background="#d8226681">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#640052b6"
+                android:onClick="bitmapSave"
+                android:padding="14dp"
+                android:text="SAVE AS BITMAP"
+                android:textColor="#00ff40"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
