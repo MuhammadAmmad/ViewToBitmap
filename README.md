@@ -29,12 +29,13 @@ An Android library that makes it very easy and quick to save any View or ViewGro
 
 ## Installation
 
-Add the following depedency in your build.gradle
+Add the following depedency in your build.gradle. <i>Distributed via jCenter</i>
 
-    dependencies {
-        compile 'com.android.support:appcompat-v7:25.1.0'       
-    }
-
+```groovy
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.1.0'    
+}
+```
 
 
 
