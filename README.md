@@ -43,7 +43,6 @@ dependencies {
 }
 ```
 
-----
 
 ### License
 
