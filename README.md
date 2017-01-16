@@ -1,11 +1,11 @@
-## ViewToBitmap
+### ViewToBitmap
 
 An Android library that makes it very easy and very quick to save any View or ViewGroup as an image to the gallery.  
 Perfect for photofiltre, quotes and drawing apps!
 
 Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?id=org.m.muddzboy.QuoteCreator&hl=da) with +80.000 downloads! 
 
-## Features
+### Features
 
 - The library saves in an ```AsyncTask```
 - Options to save Bitmaps in the formats: ```.JPG```  ```.PNG ``` ```.nomedia```
@@ -14,14 +14,14 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 - Set the name of the  ```Bitmap ``` files and folders. They have by default a timestamp as name for each save  
 - Support from API 16+
 
-## Example of usage:
+### Example of usage:
 
     BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
     bitmapToGallery.setFileName(fileName); //optional
     bitmapToGallery.setJpgQuality(50);    //optional    
     bitmapToGallery.saveToExternalSD();
   
-## Example of usage:
+### Example of usage:
 
     BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
     bitmapToGallery.setSaveAsPNG(true);             //optional
@@ -31,7 +31,7 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
     
     
 
-## Installation
+### Installation
 
 <i>Remember permission for writing to storage!</i>
 
@@ -45,7 +45,7 @@ dependencies {
 
 
 
-## License
+### License
 
     Copyright Muddii Walid (Muuddz)
     
