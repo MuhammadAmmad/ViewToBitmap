@@ -32,7 +32,6 @@ An Android library that makes it very easy and quick to save any View or ViewGro
 Add the following depedency in your build.gradle
 
     dependencies {
-    
     compile 'com.android.support:appcompat-v7:25.1.0'
     }
 
