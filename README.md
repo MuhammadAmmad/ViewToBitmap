@@ -4,11 +4,11 @@ An Android library that makes it very easy and quick to save any View or ViewGro
 
 ## Features
 
-- The library saves in an AsyncTask.
+- The library saves in an ```AsyncTask```.
 - Options to save Bitmaps in the formats: ```.JPG```, ```.PNG,``` ```.nomedia```
-- Option to put quality variable for JPG.
-- Optional listener that gives you a boolean value and String path when/if the image is saved
-- If the filename is not set, the class will use System.currentTimeMillis(); as name
+- Option to put quality variable for ```JPG.```
+- Optional listener that gives you a boolean value and String path when/if the image is saved.
+- Default setting: .JPG, 100 in quality, timstamp for file name (if not set), timestamp for folder(if not set).
 
 ## Example of usage:
 
