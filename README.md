@@ -10,13 +10,14 @@ Option to put quality variable for JPG.
 Optional listener that gives you a boolean value and String path when/if the image is saved
 If the filename is not set, the class will use System.currentTimeMillis(); as name
 
-#1 Example of usage:
+## Example of usage:
 
   BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
   bitmapToGallery.setFileName(fileName); //optional
   bitmapToGallery.setJpgQuality(50);    //optional    
   bitmapToGallery.saveToExternalSD();
-#2 Example of usage:
+  
+## Example of usage:
 
   BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
   bitmapToGallery.setSaveAsPNG(true);             //optional
