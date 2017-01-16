@@ -37,8 +37,6 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 
 <i>Remember permission for writing to storage!</i>
 
-Add the depedency in your build.gradle. The library is distributed via jCenter
-
 ```groovy
 dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'    
