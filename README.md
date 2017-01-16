@@ -16,7 +16,7 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 
 ----
 
-### Example of usage:
+### Example of simple usage:
 
         ViewToBitmap toBitmap = new ViewToBitmap(this, drawingBoard, "My folder name");
         toBitmap.saveToBitmap();
