@@ -31,14 +31,14 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
         toBitmap.setSaveAsPNG(true);
         toBitmap.setOnBitmapSaveListener(this);
         toBitmap.saveToBitmap();
-    }
+     }
 
 
     @Override
     public void onBitmapSaved(final boolean isSaved, final String path) {
         
         Toast.makeText(this, "Saved at; " + path, Toast.LENGTH_SHORT).show();
-    }
+     }
     
     
 
