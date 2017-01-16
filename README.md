@@ -19,29 +19,9 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 ### Example of simple usage:
 
         ViewToBitmap toBitmap = new ViewToBitmap(this, drawingBoard, "My folder name");
-        toBitmap.saveToBitmap();
-  
-### Example of usage:
-
-     public void bitmapSave(View v) {
-
-        ViewToBitmap toBitmap = new ViewToBitmap(this);
-        toBitmap.setFolderName("DrawingApp");
-        toBitmap.setFileName("Drawing " + randInt);
-        toBitmap.setSaveAsPNG(true);
-        toBitmap.setOnBitmapSaveListener(this);
-        toBitmap.saveToBitmap();
-     }
-
-
-    @Override
-    public void onBitmapSaved(final boolean isSaved, final String path) {
-        
-        Toast.makeText(this, "Saved at; " + path, Toast.LENGTH_SHORT).show();
-     }
+        toBitmap.saveToBitmap();  
     
     
-
 ### Installation
 
 Add the depedency in your build.gradle. The library is distributed via jCenter
