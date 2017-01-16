@@ -35,8 +35,6 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 
 ### Installation
 
-<i>Remember permission for writing to storage!</i>
-
 ```groovy
 dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'    
