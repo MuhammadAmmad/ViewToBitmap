@@ -1,4 +1,4 @@
-# ViewToBitmap
+## ViewToBitmap
 
 An Android library that makes it very easy and quick to save any View or ViewGroup as an image to the gallery.
 
@@ -12,18 +12,17 @@ If the filename is not set, the class will use System.currentTimeMillis(); as na
 
 ## Example of usage:
 
-  BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-  bitmapToGallery.setFileName(fileName); //optional
-  bitmapToGallery.setJpgQuality(50);    //optional    
-  bitmapToGallery.saveToExternalSD();
+    BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
+    bitmapToGallery.setFileName(fileName); //optional
+    bitmapToGallery.setJpgQuality(50);    //optional    
+    bitmapToGallery.saveToExternalSD();
   
 ## Example of usage:
 
-  BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-  bitmapToGallery.setSaveAsPNG(true);             //optional
-  bitmapToGallery.setOnBitmapSavedListener(this); //optional
-  bitmapToGallery.saveToExternalSD();
-
+    BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
+    bitmapToGallery.setSaveAsPNG(true);             //optional
+    bitmapToGallery.setOnBitmapSavedListener(this); //optional
+    bitmapToGallery.saveToExternalSD();
 
 
 
