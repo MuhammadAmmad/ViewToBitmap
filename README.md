@@ -1,24 +1,48 @@
-# ViewToBitmap
+### ViewToBitmap
 
-An Android library that makes it very easy and quick to save any View or ViewGroup as an image to the gallery.
+An Android library that makes it very easy and very quick to save any View or ViewGroup as an image to the gallery.  
+Perfect for photofiltre, quotes and drawing apps!
 
-Features
+Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?id=org.m.muddzboy.QuoteCreator&hl=da) with +80.000 downloads! 
 
-Saves in an AsyncTask
-Options to save Bitmaps in formats as: .JPG, .PNG, .nomedia
-Option to put quality variable for JPG.
-Optional listener that gives you a boolean value and String path when/if the image is saved
-If the filename is not set, the class will use System.currentTimeMillis(); as name
+### Features
 
-#1 Example of usage:
+- The library saves in an ```AsyncTask```
+- Options to save Bitmaps in the formats: ```.JPG```  ```.PNG ``` ```.nomedia```
+- Option to put quality variable for ```JPG``` formats
+- Optional listener that gives you a boolean value and String path when/if the image is saved
+- Set the name of the  ```Bitmap ``` files and folders. They have by default a timestamp as name for each save  
+- Support from API 16+
 
-  BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-  bitmapToGallery.setFileName(fileName); //optional
-  bitmapToGallery.setJpgQuality(50);    //optional    
-  bitmapToGallery.saveToExternalSD();
-#2 Example of usage:
+----
 
-  BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-  bitmapToGallery.setSaveAsPNG(true);             //optional
-  bitmapToGallery.setOnBitmapSavedListener(this); //optional
-  bitmapToGallery.saveToExternalSD();
+### Example of simple usage:
+
+        ViewToBitmap toBitmap = new ViewToBitmap(this, drawingBoard, "My folder name");
+        toBitmap.saveToBitmap();  
+    
+    
+### Installation
+
+Add the depedency in your build.gradle. The library is distributed via jCenter
+
+```groovy
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.1.0'    
+}
+```
+ ----
+
+### License
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
