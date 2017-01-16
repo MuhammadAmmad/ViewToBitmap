@@ -23,6 +23,11 @@ An Android library that makes it very easy and quick to save any View or ViewGro
     bitmapToGallery.setSaveAsPNG(true);             //optional
     bitmapToGallery.setOnBitmapSavedListener(this); //optional
     bitmapToGallery.saveToExternalSD();
+    
+    
+    
+
+ ## Installation
 
 
 
