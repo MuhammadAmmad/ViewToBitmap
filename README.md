@@ -2,7 +2,7 @@
 
 An Android library that makes it very easy and quick to save any View or ViewGroup as an image to the gallery.
 
-Features
+## Features
 
 Saves in an AsyncTask
 Options to save Bitmaps in formats as: .JPG, .PNG, .nomedia
