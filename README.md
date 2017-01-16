@@ -22,3 +22,11 @@ If the filename is not set, the class will use System.currentTimeMillis(); as na
   bitmapToGallery.setSaveAsPNG(true);             //optional
   bitmapToGallery.setOnBitmapSavedListener(this); //optional
   bitmapToGallery.saveToExternalSD();
+
+
+
+
+
+#License
+
+README.md
