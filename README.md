@@ -8,7 +8,7 @@ An Android library that makes it very easy and quick to save any View or ViewGro
 - Options to save Bitmaps in the formats: ```.JPG```  ```.PNG ``` ```.nomedia```
 - Option to put quality variable for ```JPG.```
 - Optional listener that gives you a boolean value and String path when/if the image is saved.
-- Default setting: .JPG, 100 in quality, timstamp for file name (if not set), timestamp for folder(if not set).
+- Set the name of the Bitmap files and folders. They have by default a timestamp as name for each save  
 - Support from API 16+
 
 ## Example of usage:
