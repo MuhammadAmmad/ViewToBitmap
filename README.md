@@ -31,7 +31,6 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
     bitmapToGallery.saveToExternalSD();
     
     
-  ----
 
 ### Installation
 
@@ -42,7 +41,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'    
 }
 ```
-
+ ----
 
 ### License
 
