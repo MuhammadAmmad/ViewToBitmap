@@ -29,7 +29,7 @@ An Android library that makes it very easy and quick to save any View or ViewGro
 
 ## Installation
 
-Add the following depedency in your build.gradle. <i>Distributed via jCenter</i>
+Add the depedency in your build.gradle. The library is distributed via jCenter
 
 ```groovy
 dependencies {
