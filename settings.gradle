@@ -1,1 +1,1 @@
-include ':app', ':viewtobitmaplibrary'
+include ':sample', ':ViewToBitmap-Android'
