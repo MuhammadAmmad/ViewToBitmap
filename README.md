@@ -29,7 +29,7 @@ If the filename is not set, the class will use System.currentTimeMillis(); as na
 
 #License
 
-Copyright {yyyy} {Muddii Walid}(Muuddz)
+   Copyright {yyyy} Muddii Walid (Muuddz)
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
