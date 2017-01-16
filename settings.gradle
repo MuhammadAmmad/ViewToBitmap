@@ -1,1 +1,1 @@
-include ':sample', ':ViewToBitmap-Android'
+include ':sample', ':viewtobitmap'

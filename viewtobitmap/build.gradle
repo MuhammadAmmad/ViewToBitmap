@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: "com.jfrog.bintray"
 
-version = "1.0.1"
+version = "1.0.4"
 
 android {
     compileSdkVersion 25
@@ -106,15 +106,16 @@ bintray {
 
     configurations = ['archives']
     pkg {
+        userOrg = "muddzdev"
         repo = "maven"
-        name = "com.muddzdev:viewtobitmap"
+        name = "viewtobitmap"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
         publish = true
         version {
             gpg {
-                sign = true //Determines whether to GPG sign the files. The default is false
+                sign = false //Determines whether to GPG sign the files. The default is false
                 passphrase = properties.getProperty("bintray.gpg.password") //Optional. The passphrase for GPG signing'
             }
         }

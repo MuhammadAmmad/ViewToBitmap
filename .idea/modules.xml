@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ViewToBitmap.iml" filepath="$PROJECT_DIR$/ViewToBitmap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ViewToBitmap-Android/ViewToBitmap-Android.iml" filepath="$PROJECT_DIR$/ViewToBitmap-Android/ViewToBitmap-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewtobitmap/viewtobitmap.iml" filepath="$PROJECT_DIR$/viewtobitmap/viewtobitmap.iml" />
     </modules>
   </component>
 </project>
