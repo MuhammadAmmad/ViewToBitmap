@@ -1,9 +1,9 @@
 ## ViewToBitmap
 
-An Android library that makes it very easy and very quick to save any View or ViewGroup as an image to the gallery.
+An Android library that makes it very easy and very quick to save any View or ViewGroup as an image to the gallery.  
 Perfect for photofilter, quote and drawing apps!
 
-Currentely used in (Quote Creator)[https://play.google.com/store/apps/details?id=org.m.muddzboy.QuoteCreator&hl=da] +80.000 downloads! 
+Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?id=org.m.muddzboy.QuoteCreator&hl=da) with +80.000 downloads! 
 
 ## Features
 
@@ -32,6 +32,8 @@ Currentely used in (Quote Creator)[https://play.google.com/store/apps/details?id
     
 
 ## Installation
+
+<i>Remember permission for writing to storage!</i>
 
 Add the depedency in your build.gradle. The library is distributed via jCenter
 
