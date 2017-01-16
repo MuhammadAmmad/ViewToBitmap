@@ -14,6 +14,8 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 - Set the name of the  ```Bitmap ``` files and folders. They have by default a timestamp as name for each save  
 - Support from API 16+
 
+----
+
 ### Example of usage:
 
     BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
@@ -29,7 +31,7 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
     bitmapToGallery.saveToExternalSD();
     
     
-    
+  ----
 
 ### Installation
 
@@ -43,7 +45,7 @@ dependencies {
 }
 ```
 
-
+----
 
 ### License
 
