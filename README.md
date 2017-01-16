@@ -18,17 +18,27 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 
 ### Example of usage:
 
-    BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-    bitmapToGallery.setFileName(fileName); //optional
-    bitmapToGallery.setJpgQuality(50);    //optional    
-    bitmapToGallery.saveToExternalSD();
+        ViewToBitmap toBitmap = new ViewToBitmap(this, drawingBoard, "My folder name");
+        toBitmap.saveToBitmap();
   
 ### Example of usage:
 
-    BitmapToGallery bitmapToGallery = new BitmapToGallery(this, container, "My App folder name");
-    bitmapToGallery.setSaveAsPNG(true);             //optional
-    bitmapToGallery.setOnBitmapSavedListener(this); //optional
-    bitmapToGallery.saveToExternalSD();
+     public void bitmapSave(View v) {
+
+        ViewToBitmap toBitmap = new ViewToBitmap(this);
+        toBitmap.setFolderName("DrawingApp");
+        toBitmap.setFileName("Drawing " + randInt);
+        toBitmap.setSaveAsPNG(true);
+        toBitmap.setOnBitmapSaveListener(this);
+        toBitmap.saveToBitmap();
+    }
+
+
+    @Override
+    public void onBitmapSaved(final boolean isSaved, final String path) {
+        
+        Toast.makeText(this, "Saved at; " + path, Toast.LENGTH_SHORT).show();
+    }
     
     
 
