@@ -27,7 +27,7 @@ If the filename is not set, the class will use System.currentTimeMillis(); as na
 
 
 
-#H2 License
+#H3 License
 
     Copyright Muddii Walid (Muuddz)
     
