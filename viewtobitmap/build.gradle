@@ -106,7 +106,6 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        userOrg = "muddzdev"
         repo = "maven"
         name = "viewtobitmap"
         websiteUrl = siteUrl
