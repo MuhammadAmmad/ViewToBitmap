@@ -16,7 +16,7 @@ Currentely used in [Quote Creator] (https://play.google.com/store/apps/details?i
 
 ----
 
-### Example of simple usage:
+### Example of simple usage
 
         ViewToBitmap toBitmap = new ViewToBitmap(this, drawingBoard, "My folder name");
         toBitmap.saveToBitmap();  
@@ -28,7 +28,7 @@ Add the depedency in your build.gradle. The library is distributed via jCenter
 
 ```groovy
 dependencies {
-    compile 'com.android.support:appcompat-v7:25.1.0'    
+    compile 'com.muddzdev:viewtobitmap:1.0.4'    
 }
 ```
  ----
